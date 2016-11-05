@@ -94,12 +94,12 @@ window.onload = function() {
             	// Turn off captions
             	video.textTracks[0].mode = "hidden";
             	// Update the CC button image to CC off
-                document.getElementById("closed-caption-icon").src = "icons/closed-caption-off-icon.png";
+                document.getElementById("closed-caption-icon").src = "img/icons/closed-caption-off-icon.png";
             } else {
             	// Turn captions on
             	video.textTracks[0].mode = "showing";
             	// Update the CC button image to CC On
-                document.getElementById("closed-caption-icon").src = "icons/closed-caption-icon.png";
+                document.getElementById("closed-caption-icon").src = "img/icons/closed-caption-icon.png";
             }
         }
 
